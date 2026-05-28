@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Home */
+
+.nav-bg {
+    background-color: rgba(2, 2, 2, 0.70);
+}
+
+.nav-text {
+    color: #ffffff !important;
+    font-family: 'Work Sans';
+}
+
+.offcanvas-head {
+    font-family: 'Work Sans';
+}
+
+.offcanvas-head-bg {
+    background-color: rgba(2, 2, 2, 0.70);
+}
+
+.offcanvas-bg {
+    background-color: rgba(2, 2, 2, 0.35);
+}
+
+#offcanvas-close {
+    color: #ffffff !important;
+    font-size: 22px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+#offcanvas-close:focus {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.home-cont {
+    background-image: url('https://img.freepik.com/premium-photo/tech-background_1047544-675.jpg');
+    background-size: cover;
+    padding-top: 380px;
+    padding-bottom: 45px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.home-cont-lg {
+    background-image: url('https://img.freepik.com/premium-photo/tech-background_1047544-675.jpg');
+    background-size: cover;
+    padding: 260px 16px;
+}
+
+.home-shield {
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.home-logo {
+    height: 38px;
+    width: 120px;
+}
+
+#navbar-home-button {
+    font-size: 26px;
+    color: #ffffff !important;
+    border-width: 0px;
+    background: transparent;
+}
+
+#navbar-home-button:focus {
+    outline: none;
+    border-width: 0px;
+}
+
+.home-login-button-sm {
+    font-family: 'Roboto';
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 8px;
+    border-width: 0px;
+    border-radius: 5px;
+    transition: 0.30s;
+}
+
+.home-login-button-sm:focus {
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.50);
+}
+
+.home-login-button-sm:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.50);
+}
+
+.home-login-button-lg {
+    font-family: 'Roboto';
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 3px;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+    transition: 0.30s;
+}
+
+.home-login-button-lg:focus {
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.50);
+}
+
+.home-login-button-lg:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.50);
+}
+
+.home-button {
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-top: 10px;
+    background-color: #576AAF;
+    box-shadow: 0px 0px 8px #576AAF;
+    font-weight: 600;
+    transition: 0.40s;
+}
+
+.home-button:focus {
+    outline: none;
+    color: #4f609e;
+    background: #D6E0EC;
+    box-shadow: 0px 0px 8px #576AAF;
+}
+
+.home-button:hover {
+    color: #4f609e;
+    background: #D6E0EC;
+    box-shadow: 0px 0px 8px #576AAF;
+}
+
+.home-text {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Work Sans';
+    margin-top: 30px;
+}
+
+.about-cont {
+    background-image: url('https://img.freepik.com/premium-photo/technology-network-background_303085-5271.jpg');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-sub {
+    font-weight: bold;
+    color: #ABBEEA;
+    font-family: 'Work Sans';
+    font-size: 20px;
+}
+
+.about-head {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Work Sans';
+    margin-bottom: 20px;
+}
+
+.about-para {
+    color: #CBD6E4;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+}
+
+.about-image {
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+
+}
+
+.inspirations-cont {
+    background-image: linear-gradient(#202E3F, #172331);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.services-cont {
+    background-image: url('https://res.cloudinary.com/diswytakp/image/upload/v1750555515/1567666_qwyepp.png');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.services-card {
+    background: rgba(190, 200, 224, 0.65);
+    padding: 15px;
+    text-align: center;
+    padding-top: 22px;
+    margin-bottom: 25px;
+    transition: 0.50s;
+}
+
+.services-card:hover {
+    background: rgba(190, 200, 224, 0.70);
+    transform: scale(1.01);
+}
+
+.services-image {
+    font-size: 45px;
+    color: #323B4E;
+    margin-bottom: 5px;
+}
+
+.services-card-head {
+    font-weight: bold;
+    color: #323B4E;
+    font-family: 'Work Sans';
+    font-size: 22px;
+}
+
+.services-card-para {
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    color: #283145;
+}
+
+.guide-cont {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/302/769/original/silhouette-landscape-with-fog-forest-pine-trees-mountains-illustration-of-night-view-mist-navy-blue-good-for-wallpaper-background-web-banner-cover-poster-free-vector.jpg');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.guide-para {
+    color: #CBD6E4;
+    font-size: 24px;
+    font-family: 'Source Sans Pro';
+}
+
+.guide-button {
+    color: #4f609e;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-top: 10px;
+    background-color: #D6E0EC;
+    box-shadow: 0px 0px 8px #576AAF;
+    font-weight: 600;
+    transition: 0.40s;
+}
+
+.guide-button:focus {
+    outline: none;
+    background-color: #576AAF;
+    color: #ffffff;
+    box-shadow: 0px 0px 12px #576AAF;
+}
+
+.guide-button:hover {
+    background-color: #576AAF;
+    color: #ffffff;
+    box-shadow: 0px 0px 12px #576AAF;
+}
+
+.donate-cont {
+    background-image: url("https://media.bizj.us/view/img/3689021/page01beaker*1200xx3000-1688-0-156.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.donate-png {
+    color: #CFC7AD;
+    font-size: 120px;
+    margin: 30px 0px;
+}
+
+.donate-head {
+    font-size: 22px;
+    color: #FBF5E3;
+}
+
+.donate-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+.donate-button {
+    color: #FBF5E3;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(251, 245, 227, 0.3);
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    transition: 0.40s;
+}
+
+.donate-button:hover {
+    border-width: 1px;
+    border-color: rgba(251, 245, 227, 0);
+    color: #CFC7AD;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.2);
+
+}
+
+.CTA-cont {
+    background-image: url('https://res.cloudinary.com/diswytakp/image/upload/v1750555497/1878528_ftlkuv.jpg');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.CTA-content {
+    background: rgb(32, 46, 63, 0.80);
+    padding: 20px;
+}
+
+.CTA-para {
+    color: #E4EAF1;
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+}
+
+.CTA-line {
+    border-style: solid;
+    border-color: #CBD6E4;
+    border-width: 1px;
+}
+
+.contact-cont {
+    background-image: radial-gradient(#10193A, #060A1A);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-logo {
+    font-size: 36px;
+    color: #CBD6E4;
+    margin-right: 15px;
+}
+
+.contact-para {
+    color: #E4EAF1;
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    margin-top: 2px;
+}
+
+.contact-logo-down {
+    font-size: 20px;
+    color: #CBD6E4;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.contact-logo-cont {
+    background-color: rgba(150, 160, 196, 0.15);
+    padding: 15px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    transition: 0.80s;
+}
+
+.contact-logo-cont:hover {
+    background-color: rgba(150, 160, 196, 0.20);
+}
+
+.contact-collapse-cont {
+    background-color: transparent;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-collapse-button {
+    background: transparent;
+    color: #CBD6E4;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-width: 1px;
+    border-color: #CBD6E4;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.40s;
+}
+
+.contact-collapse-button:hover {
+    background-color: rgba(150, 160, 196, 0.04);
+    box-shadow: 0px 0px 5px rgba(150, 160, 196, 0.20);
+}
+
+.contact-collapse-button:focus {
+    outline: none;
+    background-color: rgba(150, 160, 196, 0.04);
+    box-shadow: 0px 0px 5px rgba(150, 160, 196, 0.20);
+}
+
+.contact-collapse-para {
+    color: #CBD6E4;
+    font-size: 15px;
+    font-family: 'Work Sans';
+}
+
+.contact-collapse-png {
+    font-size: 13px;
+}
+
+
+.footer-cont {
+    background-image: url('https://res.cloudinary.com/diswytakp/image/upload/v1750555452/P0pKMKd_c8vbac.jpg');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.footer-logo {
+    height: 44px;
+    width: 140px;
+}
+
+.footer-sub {
+    color: #CBD6E4;
+    font-size: 17px;
+    font-family: 'Work Sans';
+}
+
+.footer-head {
+    color: #E4EAF1;
+    opacity: 0.8;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro';
+}
+
+.footer-para {
+    font-size: 16px;
+    color: #CBD6E4;
+    opacity: 0.8;
+    transition: 0.30s;
+}
+
+.footer-para:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyright-para {
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #98ACC6;
+    opacity: 0.8;
+}
+
+.role-dialog {
+    background-color: rgba(24, 37, 58, 0.72);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.role-head-cont {
+    text-align: center;
+}
+
+.role-head {
+    color: #ffffff;
+    font-family: 'Work Sans';
+    font-size: 24px;
+}
+
+.role-para {
+    color: #ffffff;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    opacity: 0.8;
+    transition: 0.30s;
+}
+
+.role-para:hover {
+    color: #ffffff;
+    opacity: 1.0;
+    text-decoration: none;
+}
+
+.role-para:focus {
+    color: #4f609e;
+    transform: scale(1.02);
+}
+
+.prerequisites-bg {
+    background-color: rgba(24, 37, 58, 0.90);
+}
+
+.prerequisites-static-bg {
+    background: #111C2D;
+}
+
+.prerequisites-close {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 25px;
+    transition: 0.30s;
+}
+
+.prerequisites-close:hover {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.prerequisites-head {
+    font-family: 'Source Sans Pro';
+    font-size: 26px;
+}
+
+.prerequisites-para {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-family: 'Source Sans Pro';
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro';
+}
+
+/* Officials Login */
+
+.official-login-bg {
+    background-image: url('https://img.freepik.com/premium-vector/abstract-smooth-blur-blue-color-gradient-background-website-banner-graphic-design_120819-977.jpg?w=360');
+    background-size: cover;
+    height: 100vh;
+    padding: 16px;
+}
+
+.official-login-card-1 {
+    background-image: url('https://www.pngmagic.com/product_images/light-blue-website-background-image.jpg');
+    background-size: cover;
+    padding: 18px;
+    padding-bottom: 6px;
+}
+
+.official-login-logo {
+    height: 30px;
+    width: 98px;
+}
+
+.official-login-head {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.official-login-para {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Roboto';
+}
+
+.official-login-card-2 {
+    background: rgba(255, 255, 255, 0.70);
+    padding: 25px;
+}
+
+.login-form {
+    margin-bottom: 15px;
+}
+
+.officials-login-button {
+    background-color: rgb(140, 175, 255);
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    border-width: 0px;
+    padding: 8px;
+    width: 100%;
+    transition: 0.50s;
+}
+
+.officials-login-button:hover {
+    transform: scale(1.006);
+    background-color: rgba(140, 175, 255, 0.90);
+}
+
+.officials-login-button:focus {
+    outline: none;
+    transform: scale(1.006);
+    background-color: rgba(160, 198, 249, 0.45);
+}
+
+.officials-form-input {
+    border-color: transparent;
+    padding: 8px;
+    width: 100%;
+}
+
+.officials-form-input:focus {
+    box-shadow: 0px 0px 0px;
+    border-color: transparent;
+    outline: none;
+}
+.form-control {
+    box-shadow: 0px 0px 0px !important;
+}
+.officials-login-link {
+    color: #646566;
+    font-size: 13px;
+}
+
+.officials-login-para {
+    color: #7C7D7E;
+    font-size: 13px;
+}
+
+.officials-login-link:hover {
+    color: #484849;
+    text-decoration: none;
+}
+
+.officials-login-link:focus {
+    outline: none;
+    color: #484849;
+    text-decoration: none;
+}
+
+/* User login */
+
+.login-bg {
+    background-image: url('https://res.cloudinary.com/diswytakp/image/upload/v1753889859/lKeljXZ_u7gt2m.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-logo {
+    height: 60px;
+    width: 188px;
+}
+
+.login-logo-cont {
+    border-style: solid;
+    border-width: 0px;
+    border-right-width: 1px;
+    border-color: #ffffff;
+}
+
+.login-cont {
+    padding: 45px;
+}
+
+.login-cont-sm {
+    padding: 25px;
+    padding-top: 40px;
+}
+
+.login-sub {
+    color: #DDE3E9;
+    font-size: 17px;
+    font-family: 'Work Sans';
+}
+
+.login-line {
+    border-left: 2px #ffffff solid;
+    position: absolute;
+    left: 50%;
+    height: 500px;
+}
+
+.login-users-logo {
+    font-size: 90px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    margin-bottom: 15px;
+}
+
+.login-button {
+    background-color: rgba(160, 198, 249, 0.40);
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    border-width: 0px;
+    padding: 8px;
+    width: 100%;
+    transition: 0.50s;
+}
+
+.login-button:hover {
+    transform: scale(1.006);
+    background-color: rgba(160, 198, 249, 0.45);
+}
+
+.login-button:focus {
+    outline: none;
+    transform: scale(1.006);
+    background-color: rgba(160, 198, 249, 0.45);
+}
+
+.form-input {
+    border-width: 0px;
+    border-color: transparent;
+    outline: none;
+}
+
+.form-input:focus {
+    box-shadow: 0px 0px 0px;
+    border-color: transparent;
+    outline: none;
+    border-width: 0px;
+}
+
+.login-link {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.login-para {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.login-link:hover {
+    color: #DBEAFD;
+    text-decoration: none;
+}
+
+.login-link:focus {
+    outline: none;
+    color: #DBEAFD;
+    text-decoration: none;
+}
+
+
+/* User creation */
+
